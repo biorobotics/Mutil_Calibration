@@ -16,7 +16,8 @@ This linux use Ubuntu 18.04 and ROS Melodic ([Installation](http://wiki.ros.org/
 ](http://docs.ros.org/en/melodic/api/moveit_tutorials/html/index.html)
 / [MoveIt Tutorials Noetic
 ](https://ros-planning.github.io/moveit_tutorials/)
-
+5. [Apriltag_ROS
+](https://github.com/AprilRobotics/apriltag_ros)
 
 ### 0.3 Build Calibration Workspace 
 
@@ -25,12 +26,14 @@ $ cd ~
 $ mkdir -p ~/calibration_ws/src
 $ cd ~/calibration_ws/src
 $ git clone https://github.com/ros-planning/moveit_tutorials.git -b melodic-devel
-$ git clone https://github.com/ros-planning/panda_moveit_config.git -b melodic-devel
+$ git clone https://github.com/ros-planning/panda_moveit_config.git -b melodic-devel  Clone Apriltag library
+$ git clone https://github.com/AprilRobotics/apriltag.git      # Clone MOVEIT
+$ git clone https://github.com/AprilRobotics/apriltag_ros.git  # Clone Apriltag ROS wrapper
 $ mkdir ~/calibration_ws/src/src
 $ cd ~/calibration_ws/src/src
 $ git clone -b boost https://github.com/UniversalRobots/Universal_Robots_Client_Library.git src/Universal_Robots_Client_Library
-$ git clone https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git src/Universal_Robots_ROS_Driver
-$ git clone -b calibration_devel https://github.com/fmauch/universal_robot.git src/fmauch_universal_robot
+$ git clone https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git src/Universal_Robots_ROS_Driver # Clone Universal_Robots_ROS_Driver
+$ git clone -b calibration_devel https://github.com/fmauch/universal_robot.git src/fmauch_universal_robot # Clone Universal_Robots_ROS_Driver
 $ sudo apt update -qq
 $ rosdep update
 $ rosdep install --from-paths src --ignore-src -y
@@ -67,3 +70,5 @@ The calibration workspace should contain the following repo in the src:
 ## 3. Camera-laser extrinsics
 ### 2.1 Hardware needed
 * UR5e robot arm
+* Camera holder([Example](https://drive.google.com/file/d/12sZWZGFeq9ehgpnKUAZS80BMfkZedMsY/view?usp=sharing))
+* **Laser On**
