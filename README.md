@@ -25,8 +25,6 @@ This linux use Ubuntu 18.04 and ROS Melodic ([Installation](http://wiki.ros.org/
 $ cd ~
 $ mkdir -p ~/calibration_ws/src
 $ cd ~/calibration_ws/src
-$ git clone https://github.com/ros-planning/moveit_tutorials.git -b melodic-devel
-$ git clone https://github.com/ros-planning/panda_moveit_config.git -b melodic-devel  Clone Apriltag library
 $ git clone https://github.com/AprilRobotics/apriltag.git      # Clone MOVEIT
 $ git clone https://github.com/AprilRobotics/apriltag_ros.git  # Clone Apriltag ROS wrapper
 $ mkdir ~/calibration_ws/src/src
