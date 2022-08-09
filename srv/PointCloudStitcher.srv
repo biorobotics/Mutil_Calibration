@@ -1,0 +1,5 @@
+int8 publish
+int8 save
+int8 clear
+---
+int64 status

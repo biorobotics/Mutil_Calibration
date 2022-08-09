@@ -1,0 +1,23 @@
+%YAML:1.0
+---
+image_width: 2448
+image_height: 1840
+camera_name: ximea_cam
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [1.2683529736916014e+03, 0, 1.2245670935891208e+03,0, 1.2665223048187381e+03, 9.0473740448008948e+02, 0, 0, 1]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [-4.1466571075099856e-01, 1.9335424492415187e-01, 2.3748871937276296e-04, -3.8193638143259952e-04, 0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [1.2683529736916014e+03, 0, 1.2245670935891208e+03,0, 0, 1.2665223048187381e+03, 9.0473740448008948e+02, 0, 0, 0, 1,0]
+
