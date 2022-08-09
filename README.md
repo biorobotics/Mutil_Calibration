@@ -1,3 +1,3 @@
 # Mutil_Calibration
 This repo combine Camera Intrinsics, Hand-eye Calibration, Camera-laser extrinsics method by using Robot arm
-![Flowchart](Mutil_Calibration/readme_Picture/Calibration_process.png)
+![Flowchart](readme_Picture/Calibration_process.png)
