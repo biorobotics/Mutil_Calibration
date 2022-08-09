@@ -66,9 +66,10 @@ The calibration workspace should contain the following repo in the src:
 * Camera holder([Example](https://drive.google.com/file/d/1i7l1ikb1o2ocoi0iMsCJhSHDmBsIzraE/view?usp=sharing))
 * April tag holder([Example](https://drive.google.com/file/d/12sZWZGFeq9ehgpnKUAZS80BMfkZedMsY/view?usp=sharing))
 
+[Jupyter Notebook scrip for Hand-eye calibration](https://drive.google.com/file/d/1x8It3NmqM_Qm07OM-dieFRudrayFTtfS/view?usp=sharing)
 
 ## 3. Camera-laser extrinsics
-### 2.1 Hardware needed
+### 3.1 Hardware needed
 * UR5e robot arm
 * Camera holder([Example](https://drive.google.com/file/d/12sZWZGFeq9ehgpnKUAZS80BMfkZedMsY/view?usp=sharing))
 * **Laser On**
